@@ -1,0 +1,231 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', Helvetica, sans-serif;
+}
+
+
+
+.texto {
+  display: flex;
+  justify-content: center;
+}
+
+nav {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  background-image: url(imgs/elasporelas.png);
+  padding-bottom: 1px;
+  padding-top: 2px;
+  background-color: #ffe5e5;
+  width: 500px;
+  
+
+}
+.texto h3 {
+   font-family: 'Nunito' , sans-serif;
+   color:#ff123d;
+}
+header{
+  
+    background-image: url(imgs/elasporelas.png);
+    padding: 23px;
+    padding-top: 1px;
+    width: 500px;
+}
+
+.imagens {
+   display: flex;
+   justify-content: left;
+   margin-top: 23px;
+   
+}
+.imagens img {
+    margin-right: 23px;
+    padding: -23px;
+    width: 100px;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.icon {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: right;
+}
+.icon img {
+    position: relative;
+    bottom: 100px;
+}
+.texto h3 {
+    color: #EF5A5A;
+    font-family: 'Nunito' , sans-serif;
+    margin-bottom: 20px;
+}
+.texto2 {
+    font-family: 'Nunito' , sans-serif;
+    color:black;
+    font-weight: bold;
+    margin: 15px;
+}
+.botton1  {
+    box-sizing: border-box;
+    background-color: #785BC7;
+    border: 1px solid #785BC7;
+    border-radius: 10px;
+    position: relative;
+ 
+    width: 200px;
+    height: 26px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    color: white;
+    text-decoration: none;
+    
+}
+
+.botton1 a:hover {
+    color: black;
+    cursor: pointer;
+}
+.botton2{
+    box-sizing: border-box;
+    background-color: #785BC7;
+    border: 1px solid #785BC7;;
+    border-radius: 10px;
+    width: 200px;
+    height: 26px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+    position: relative;
+    top: 23px;
+    left: 230px;
+    top: -25px;
+
+    color: white;
+    text-decoration: none;
+}
+
+
+
+body{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.container-pb{
+    background-color: #FFDAE969;
+    ;
+}
+.container-button{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+}
+
+.button-box a{
+  text-decoration: none;
+}
+
+.button-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 500px;
+    height: 350px;
+}
+
+.button1{
+    display: flex;
+    flex-direction: row;
+    width: 320px;
+    height: 129px;
+    padding: 2%;
+    margin-top: 30px;
+    background-color: #ff123d;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.button1 img{
+    /*margin: 10px 25px 25px 30px;*/
+    width: 100px;
+    height: 100px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.button2 img{
+    width: 80px;
+    height: 80px;
+    margin-right: 10px;
+    margin-left: 8px;
+}
+
+.button2{
+    display: flex;
+    flex-direction: row;
+    width: 320px;
+    height: 129px;
+    padding: 2%;
+    margin-top: 30px;
+    background-color: #fd2d84;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+
+.container-pesquisa{
+    border: 2px solid powderblue;
+    border-radius: 10px;
+    margin: 5px;
+    cursor: pointer;
+    background-color: grey;
+}
+.elementos-pesquisa{
+    display: flex;
+    align-items: center;
+    vertical-align: middle;
+}
+.pesquisa{
+    padding: 0px 5px;
+    height: 20px;
+    width: 450px;
+    background-color: transparent;
+}
+::placeholder{
+    color: black;
+}
+.lupa{
+    padding: 6px 5px 5px 5px;
+}
+td a{
+     text-decoration: none;
+     color: black;
+}
+
+td input{
+    border: none;
+    text-decoration: none;
+}
+
+.text h2{
+    color: #FFFFFF;
+}
+
+.text p{
+    font-size: 15px;
+    color: #FFFFFF;
+}

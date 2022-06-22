@@ -1,0 +1,89 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
+
+:root {
+    --cor0:#FFBCE4;
+    --cor1:#CB6CE6;
+    --cor2:#fe76ca;
+    --cor3:#f6d3ed;
+    
+    --fonte-padrao: 'Nunito', Helvetica, sans-serif;
+}
+
+*{
+    margin:0px;
+    padding:0px;
+}
+
+body{
+    background-color:var(--cor3);
+    font-family:var(--fonte-padrao);
+}
+
+
+header{
+    background-color:  var(--cor2);
+    min-height: 120px;
+    text-align:center;
+    padding-top:25px;
+}
+
+header > h1{
+    color:rgb(0, 0, 0);
+    font-family:var(--Helvetica);
+    font-size:2em;
+    font-weight: bold;
+    margin-bottom:20px;
+}
+
+header > p {
+    color:rgb(0, 0, 0);
+    font-family:var(--Helvetica);
+    font-size:1em;
+    font-weight: bold;
+    margin-top:20px;
+}
+
+main{
+    background-color:  var(--cor3);
+    font-size: 1,5em;
+    text-align:center;
+    padding-top:25px;
+}
+
+div > h2{
+  background-color: #f5ade2 ;
+  color: #320151;
+  min-height: 20px;
+  font-family: calibri;
+  font-weight: normal;
+}
+
+
+.canais-apoio > h3 {
+    color:rgb(2, 0, 0);
+    font-family:var(--fonte-padrao)
+    font-size: 1em;
+    font-weight: bold;
+    margin:40px;
+    border-bottom: 1px solid black;
+}
+
+.locais-apoio > h3 {
+   color:rgb(2, 0, 0);
+    font-family:var(--fonte-padrao)
+    font-size: 1em;
+    font-weight: bold;
+    margin:20px;
+}
+
+.locais-apoio > p {
+    color:rgb(2, 0, 0);
+    font-family:var(--fonte-padrao)
+    font-size: 1em;
+    font-weight: normal;
+    margin:10px;
+    border-bottom: 1px solid black;
+  
+}

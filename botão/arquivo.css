@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+.local {
+ 
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    display: inline-flex;
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+    padding: 1px 2px;
+
+}
+
+.vetor {
+    display: inline-block;
+    margin-top: 30px;
+    padding: 1px 1px;
+    
+}
+
+img {
+    margin:auto;
+}
+
+nav {
+    background-color: rgba(239, 73, 175, 0.17);
+    display:flex;
+    justify-content: center;
+    
+}
+
+.pagina {
+    font-family: sans-serif;
+    font-size: 18px;
+    color:black;
+    
+}
+
+.pagina p {
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.simbol a {
+    display: flex;
+  
+}
+.simbol img {
+    background-image: url("fotosindex5/elipse3.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 100px;
+    cursor: pointer;
+}
+
+.texto {
+   font-family: sans-serif;
+   font-size: 20px;
+   font-weight: bold;
+
+}
+
+.texto p{ 
+    display: flex;
+    justify-content: center;
+    margin-top: 1px;
+}
+
+.texto2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color: rgb(255, 45, 133);
+}
+
+.texto2 p {
+    display: flex;
+   justify-content: center;
+   margin-top: 30px;
+}
+
+.texto3 {
+    font-family: sans-serif;
+    font-size: 12px;
+
+}
+
+.texto3 p {
+    display: flex;
+    justify-content: center;
+    margin-top:  20px;
+}
+
+    
